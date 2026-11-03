@@ -1,0 +1,31 @@
+# ==========================================
+# Entire Directories to Ignore
+# ==========================================
+# block specific unreal project files
+# Unreal Engine Temporary and Build Folders
+unreal_mobilehome/Binaries/
+unreal_mobilehome/Build/
+unreal_mobilehome/DerivedDataCache/
+unreal_mobilehome/Intermediate/
+unreal_mobilehome/Saved/
+
+#block the all the revit files
+structure/
+
+# ==========================================
+# Specific 3D & Binary Formats (Just in case)
+# ==========================================
+*.blend
+*.ifc
+*.rvt
+*.uproject.user
+*.sln
+.vs/
+
+# ==========================================
+# Python & OS Junk
+# ==========================================
+.DS_Store
+__pycache__/
+Thumbs.db
+*.pyc
