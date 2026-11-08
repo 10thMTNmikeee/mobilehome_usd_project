@@ -9,7 +9,7 @@ from pathlib import Path
 # get ifc file path
 FILE_IFC = Path(__file__).resolve().parent.parent / '01_source' / 'structure_mobilehome.ifc'
 # get usd file path
-FILE_USD = Path(__file__).resolve().parent.parent / '01_source' / 'structure_mobilehome_test.usda'
+FILE_USD = Path(__file__).resolve().parent.parent / '03_sandbox' / 'structure_mobilehome_test.usda'
 
 def clean_material_name(mat_name):
     pattern = r"[\s,\-()]"
